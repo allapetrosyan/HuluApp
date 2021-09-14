@@ -1,0 +1,53 @@
+[
+  {
+    "name": "Action",
+    "url": "slack"
+  },
+  {
+    "name": "Adventure",
+    "url": "slack"
+  },
+  {
+    "name": "Animation",
+    "url": "slack"
+  },
+  {
+    "name": "Comedy",
+    "url": "slack"
+  },
+  {
+    "name": "Documentary",
+    "url": "slack"
+  },
+  {
+    "name": "Drama",
+    "url": "slack"
+  },
+
+  {
+    "name": "Family",
+    "url": "slack"
+  },
+  {
+    "name": "Fantasy",
+    "url": "slack"
+  },
+
+  {
+    "name": "Horror",
+    "url": "slack"
+  },
+  {
+    "name": "Romance",
+    "url": "slack"
+  },
+
+  {
+    "name": "Sci-Fi",
+    "url": "slack"
+  },
+  {
+    "name": "Thriller",
+    "url": "slack"
+  }
+]

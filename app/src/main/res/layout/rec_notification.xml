@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/black">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/notPageSmallImg"
+        android:layout_width="104dp"
+        android:layout_height="160dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:scaleType="fitXY"
+        android:background="@drawable/test_img"
+        />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/notPageAboutFilm"
+        android:layout_width="206dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/notPageSmallImg"
+        android:layout_marginStart="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/white"
+        android:text="@string/test"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/notPageWatchNow"
+        android:layout_width="98dp"
+        android:layout_height="26dp"
+        app:layout_constraintStart_toEndOf="@id/notPageSmallImg"
+        app:layout_constraintTop_toBottomOf="@id/notPageAboutFilm"
+        android:layout_marginStart="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/white"
+        android:text="Watch Now"
+        android:background="@drawable/movie_btn"
+
+
+
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
